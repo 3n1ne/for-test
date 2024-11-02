@@ -3,9 +3,8 @@
 int main()
 {
 	using std::cout;
-	int a = 6;
-	int* p = &a;
-	cout << p;
+	for (int a = 0; a < 10; a++)
+		cout << "hello";
 
 
 }
